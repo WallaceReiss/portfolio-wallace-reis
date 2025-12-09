@@ -1,0 +1,106 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-banner",
+      "description": "A hobby-style photo of a developer for a portfolio banner.",
+      "imageUrl": "/static/valleta.jpg",
+      "imageHint": "developer portrait"
+    },
+    {
+      "id": "hobby-soccer",
+      "description": "A man playing soccer on a field.",
+      "imageUrl": "/images/hobby-soccer.jpg",
+      "imageHint": "man soccer"
+    },
+    {
+      "id": "hobby-billiards",
+      "description": "A man playing billiards with friends.",
+      "imageUrl": "/images/hobby-billiards.jpg",
+      "imageHint": "man billiards"
+    },
+    {
+      "id": "hobby-pets",
+      "description": "A man with his pets in a park.",
+      "imageUrl": "/images/hobby-pets.jpg",
+      "imageHint": "man pets"
+    },
+    {
+      "id": "hobby-travel",
+      "description": "A man in Paris.",
+      "imageUrl": "/static/louvre.jpg",
+      "imageHint": "man paris"
+    },
+    {
+      "id": "hobby-soccer-1",
+      "description": "Soccer action shot.",
+      "imageUrl": "/images/hobby-soccer-1.jpg",
+      "imageHint": "soccer game"
+    },
+    {
+      "id": "hobby-soccer-2",
+      "description": "Soccer player celebrating.",
+      "imageUrl": "/images/hobby-soccer-2.jpg",
+      "imageHint": "soccer goal"
+    },
+    {
+      "id": "hobby-soccer-3",
+      "description": "Soccer field.",
+      "imageUrl": "/images/hobby-soccer-3.jpg",
+      "imageHint": "soccer field"
+    },
+    {
+      "id": "hobby-billiards-1",
+      "description": "Breaking the rack in billiards.",
+      "imageUrl": "/images/hobby-billiards-1.jpg",
+      "imageHint": "billiards break"
+    },
+    {
+      "id": "hobby-billiards-2",
+      "description": "Aiming a shot in pool.",
+      "imageUrl": "/images/hobby-billiards-2.jpg",
+      "imageHint": "pool shot"
+    },
+    {
+      "id": "hobby-billiards-3",
+      "description": "Billiard balls on the table.",
+      "imageUrl": "/images/hobby-billiards-3.jpg",
+      "imageHint": "billiard balls"
+    },
+    {
+      "id": "hobby-pets-1",
+      "description": "A man playing with a dog.",
+      "imageUrl": "/images/hobby-pets-1.jpg",
+      "imageHint": "man dog"
+    },
+    {
+      "id": "hobby-pets-2",
+      "description": "A person petting a cat.",
+      "imageUrl": "/images/hobby-pets-2.jpg",
+      "imageHint": "petting cat"
+    },
+    {
+      "id": "hobby-pets-3",
+      "description": "Walking a dog in a park.",
+      "imageUrl": "/images/hobby-pets-3.jpg",
+      "imageHint": "dog walk"
+    },
+    {
+      "id": "hobby-travel-1",
+      "description": "Eiffel Tower.",
+      "imageUrl": "/static/arco-do-triunfo.jpg",
+      "imageHint": "eiffel tower"
+    },
+    {
+      "id": "hobby-travel-2",
+      "description": "A Parisian street.",
+      "imageUrl": "/static/torre-eiffel-cor.jpg",
+      "imageHint": "a man in front of the eiffel tower"
+    },
+    {
+      "id": "hobby-travel-3",
+      "description": "Louvre Museum.",
+      "imageUrl": "/static/eiffel.jpg",
+      "imageHint": "a man in front of the louvre museum"
+    }
+  ]
+}
