@@ -9,19 +9,19 @@
     {
       "id": "hobby-soccer",
       "description": "A man playing soccer on a field.",
-      "imageUrl": "/images/hobby-soccer.jpg",
+      "imageUrl": "/static/playng-futebol.png",
       "imageHint": "man soccer"
     },
     {
       "id": "hobby-billiards",
       "description": "A man playing billiards with friends.",
-      "imageUrl": "/images/hobby-billiards.jpg",
+      "imageUrl": "/static/playing-blilliard.png",
       "imageHint": "man billiards"
     },
     {
       "id": "hobby-pets",
       "description": "A man with his pets in a park.",
-      "imageUrl": "/images/hobby-pets.jpg",
+      "imageUrl": "/static/walking-dog.png",
       "imageHint": "man pets"
     },
     {
@@ -29,60 +29,6 @@
       "description": "A man in Paris.",
       "imageUrl": "/static/louvre.jpg",
       "imageHint": "man paris"
-    },
-    {
-      "id": "hobby-soccer-1",
-      "description": "Soccer action shot.",
-      "imageUrl": "/images/hobby-soccer-1.jpg",
-      "imageHint": "soccer game"
-    },
-    {
-      "id": "hobby-soccer-2",
-      "description": "Soccer player celebrating.",
-      "imageUrl": "/images/hobby-soccer-2.jpg",
-      "imageHint": "soccer goal"
-    },
-    {
-      "id": "hobby-soccer-3",
-      "description": "Soccer field.",
-      "imageUrl": "/images/hobby-soccer-3.jpg",
-      "imageHint": "soccer field"
-    },
-    {
-      "id": "hobby-billiards-1",
-      "description": "Breaking the rack in billiards.",
-      "imageUrl": "/images/hobby-billiards-1.jpg",
-      "imageHint": "billiards break"
-    },
-    {
-      "id": "hobby-billiards-2",
-      "description": "Aiming a shot in pool.",
-      "imageUrl": "/images/hobby-billiards-2.jpg",
-      "imageHint": "pool shot"
-    },
-    {
-      "id": "hobby-billiards-3",
-      "description": "Billiard balls on the table.",
-      "imageUrl": "/images/hobby-billiards-3.jpg",
-      "imageHint": "billiard balls"
-    },
-    {
-      "id": "hobby-pets-1",
-      "description": "A man playing with a dog.",
-      "imageUrl": "/images/hobby-pets-1.jpg",
-      "imageHint": "man dog"
-    },
-    {
-      "id": "hobby-pets-2",
-      "description": "A person petting a cat.",
-      "imageUrl": "/images/hobby-pets-2.jpg",
-      "imageHint": "petting cat"
-    },
-    {
-      "id": "hobby-pets-3",
-      "description": "Walking a dog in a park.",
-      "imageUrl": "/images/hobby-pets-3.jpg",
-      "imageHint": "dog walk"
     },
     {
       "id": "hobby-travel-1",
