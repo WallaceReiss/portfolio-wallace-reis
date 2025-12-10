@@ -5,7 +5,7 @@ const AboutSection = () => {
     return (
         <SectionWrapper id="about" className="bg-background">
             <div className="text-center">
-                <h2 className="text-3xl font-bold tracking-tight font-headline sm:text-4xl">Sobre Mim</h2>
+                <h2 className="text-3xl font-bold tracking-tight font-headline sm:text-4xl">About me</h2>
             </div>
             <div className="mt-12 max-w-6xl mx-auto grid gap-8 md:grid-cols-2">
                 <Card className="flex flex-col">
@@ -25,10 +25,7 @@ const AboutSection = () => {
 
                             In code, I seek clarity, scalability, and purpose. In life, I seek connection, lightness, and joy. Developing is what I do. But living well is who I am. </p>
                         <p className="text-justify">
-                            No código, busco clareza, escalabilidade e propósito.
-                            Na vida, busco conexão, leveza e alegria.
-                            Desenvolver é o que eu faço.
-                            Mas viver bem é quem eu sou.
+                            In code, I seek clarity, scalability, and purpose. In life, I seek connection, lightness, and joy. Developing is what I do. But living well is who I am.
                         </p>
                     </CardContent>
                 </Card>

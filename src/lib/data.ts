@@ -56,7 +56,7 @@ export const awards = [
     icon: Award,
     title: 'Campeão do StartUp Weekend',
     year: '2022',
-    description: 'Campeão da melhor ideia de criação de uma startup em 54h no evento que aconteceu em SP em Jul/22, criação de um e-commerce completo para veículos elétricos e todo seu ecossistema de produtos e serviços.',
+    description: 'Winner of the best startup idea in 54 hours at an event held in São Paulo in July 2022, creating a complete e-commerce platform for electric vehicles and their entire ecosystem of products and services.',
   },
 ];
 
@@ -69,22 +69,22 @@ export const languages = [
 
 export const hobbyDetails = [
   {
-    title: 'Futebol',
+    title: 'Soccer',
     imageId: 'hobby-soccer',
     gallery: ['hobby-soccer-1', 'hobby-soccer-2', 'hobby-soccer-3'],
   },
   {
-    title: 'Bilhar',
+    title: 'Billiard',
     imageId: 'hobby-billiards',
     gallery: ['hobby-billiards-1', 'hobby-billiards-2', 'hobby-billiards-3'],
   },
   {
-    title: 'Passear com Pets',
+    title: 'My Dog (Liza)',
     imageId: 'hobby-pets',
     gallery: ['hobby-pets-1', 'hobby-pets-2', 'hobby-pets-3'],
   },
   {
-    title: 'Viajar',
+    title: 'Travell',
     imageId: 'hobby-travel',
     gallery: ['hobby-travel-1', 'hobby-travel-2', 'hobby-travel-3'],
   },
