@@ -31,7 +31,7 @@ const HobbiesSection = () => {
     <SectionWrapper id="hobbies" className="bg-background">
       <div className="text-center">
         <h2 className="text-3xl font-bold tracking-tight font-headline sm:text-4xl">Hobbies</h2>
-        <p className="mt-4 text-lg text-muted-foreground">Coisas que gosto de fazer no meu tempo livre.</p>
+        <p className="mt-4 text-lg text-muted-foreground">Things I like to do in my free time.</p>
       </div>
       <div className="mt-12">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">

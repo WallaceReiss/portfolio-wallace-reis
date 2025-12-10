@@ -6,8 +6,8 @@ const AwardsSection = () => {
     return (
         <SectionWrapper id="awards">
             <div className="text-center">
-                <h2 className="text-3xl font-bold tracking-tight font-headline sm:text-4xl">Prêmios e Reconhecimentos</h2>
-                <p className="mt-4 text-lg text-muted-foreground">Algumas das minhas conquistas profissionais.</p>
+                <h2 className="text-3xl font-bold tracking-tight font-headline sm:text-4xl">Awards and Recognitions</h2>
+                <p className="mt-4 text-lg text-muted-foreground">Some of my professional achievements.</p>
             </div>
             <div className="mt-12 grid gap-8 md:grid-cols-1 lg:grid-cols-2 justify-center">
                 {awards.map((award, index) => (

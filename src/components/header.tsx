@@ -4,19 +4,19 @@ import { ThemeToggle } from '@/components/theme-toggle';
 
 const socialLinks = [
   {
-    href: "https://github.com",
+    href: "https://github.com/WallaceReiss",
     label: "Github",
     icon: Github,
     color: "hover:text-gray-700 dark:hover:text-gray-300"
   },
   {
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/in/wallace-reis-oliveira/",
     label: "LinkedIn",
     icon: Linkedin,
     color: "hover:text-blue-600 dark:hover:text-blue-500"
   },
   {
-    href: "https://instagram.com",
+    href: "https://www.instagram.com/ww_reis?igsh=MXA4ZGpuZTAxeXJhZg==",
     label: "Instagram",
     icon: Instagram,
     color: "hover:text-pink-500 dark:hover:text-pink-400"
