@@ -1,26 +1,21 @@
-"use client";
 
-import Link from "next/link";
-import { FaWhatsapp } from 'react-icons/fa';
+'use client';
 
-interface FloatingWhatsappProps {
-    phoneNumber: string;
-}
+import Link from 'next/link';
+import { WhatsappIcon } from './icons/WhatsappIcon';
 
-const FloatingWhatsapp = ({ phoneNumber }: FloatingWhatsappProps) => {
-    const whatsappUrl = `https://wa.me/${phoneNumber}`;
+const FloatingWhatsApp = () => {
+  return (
+    <Link
+      href="https://wa.me/5511998146779"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="fixed bottom-6 right-6 z-50 p-3 bg-green-500 rounded-full shadow-lg hover:bg-green-600 transition-all hover:scale-110 active:scale-95"
+      aria-label="Entre em contato pelo WhatsApp"
+    >
+      <WhatsappIcon className="h-8 w-8 text-white" />
+    </Link>
+  );
+};
 
-    return (
-        <Link 
-            href={whatsappUrl} 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="fixed bottom-6 right-6 z-50 p-4 bg-green-500 rounded-full text-white shadow-lg hover:bg-green-600 transition-colors duration-300"
-            aria-label="Contact me on WhatsApp"
-        >
-            <FaWhatsapp className="h-8 w-8" />
-        </Link>
-    );
-}
-
-export default FloatingWhatsapp;
+export default FloatingWhatsApp;

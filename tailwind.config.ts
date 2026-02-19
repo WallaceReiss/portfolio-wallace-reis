@@ -18,9 +18,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ['Inter', 'sans-serif'],
-        headline: ['Space Grotesk', 'sans-serif'],
-        code: ['monospace'],
+        sans: ['var(--font-inter)', 'sans-serif'],
+        mono: ['var(--font-jetbrains-mono)', 'monospace'],
       },
       colors: {
         background: 'hsl(var(--background))',
@@ -56,13 +55,6 @@ export default {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
-        chart: {
-          '1': 'hsl(var(--chart-1))',
-          '2': 'hsl(var(--chart-2))',
-          '3': 'hsl(var(--chart-3))',
-          '4': 'hsl(var(--chart-4))',
-          '5': 'hsl(var(--chart-5))',
-        },
       },
       borderRadius: {
         lg: 'var(--radius)',
@@ -86,29 +78,23 @@ export default {
             height: '0',
           },
         },
+        'beam-pulse': {
+          '0%': {
+            transform: 'scale(0.5)',
+            opacity: '0.7',
+          },
+          '100%': {
+            transform: 'scale(2.5)',
+            opacity: '0',
+          },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
-      },
-      textShadow: {
-        sm: '0 1px 2px var(--tw-shadow-color)',
-        DEFAULT: '0 2px 4px var(--tw-shadow-color)',
-        lg: '0 8px 16px var(--tw-shadow-color)',
+        'beam-pulse': 'beam-pulse 4s linear infinite',
       },
     },
   },
-  plugins: [
-    require('tailwindcss-animate'),
-    plugin(function ({ matchUtilities, theme }: { matchUtilities: any, theme: any }) {
-      matchUtilities(
-        {
-          'text-shadow': (value: any) => ({
-            textShadow: value,
-          }),
-        },
-        { values: theme('textShadow') }
-      )
-    }),
-  ],
+  plugins: [require('tailwindcss-animate')],
 } satisfies Config;

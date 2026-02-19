@@ -1,52 +1,112 @@
 {
   "placeholderImages": [
     {
+      "id": "project-tech-recruit",
+      "description": "TechRecruit landing page with dark theme and yellow accents.",
+      "imageUrl": "/static/techRecruit.jpg",
+      "imageHint": "dark website dashboard"
+    },
+    {
+      "id": "project-gl-sports",
+      "description": "Modern gym management dashboard showing member statistics.",
+      "imageUrl": "/static/wevSports.jpg",
+      "imageHint": "gym fitness app"
+    },
+    {
+      "id": "project-psy-health",
+      "description": "Clean and secure interface for psychology patient management.",
+      "imageUrl": "/static/psyHealth.png",
+      "imageHint": "medical clean interface"
+    },
+    {
+      "id": "project-easy-money",
+      "description": "Financial dashboard for loan and credit management.",
+      "imageUrl": "/static/easyMoney.jpg",
+      "imageHint": "finance dashboard"
+    },
+    {
       "id": "hero-banner",
-      "description": "A hobby-style photo of a developer for a portfolio banner.",
-      "imageUrl": "/static/valleta.jpg",
-      "imageHint": "developer portrait"
+      "description": "Abstract network of nodes and connections on a dark background, representing technology and data.",
+      "imageUrl": "/static/heroBanner.jpg",
+      "imageHint": "abstract data"
     },
     {
-      "id": "hobby-soccer",
-      "description": "A man playing soccer on a field.",
-      "imageUrl": "/static/playng-futebol.png",
-      "imageHint": "man soccer"
-    },
-    {
-      "id": "hobby-billiards",
-      "description": "A man playing billiards with friends.",
-      "imageUrl": "/static/playing-blilliard.png",
-      "imageHint": "man billiards"
-    },
-    {
-      "id": "hobby-pets",
-      "description": "A man with his pets in a park.",
-      "imageUrl": "/static/walking-dog.png",
-      "imageHint": "man pets"
-    },
-    {
-      "id": "hobby-travel",
-      "description": "A man in Paris.",
-      "imageUrl": "/static/louvre.jpg",
-      "imageHint": "man paris"
-    },
-    {
-      "id": "hobby-travel-1",
-      "description": "Eiffel Tower.",
-      "imageUrl": "/static/arco-do-triunfo.jpg",
-      "imageHint": "eiffel tower"
-    },
-    {
-      "id": "hobby-travel-2",
-      "description": "A Parisian street.",
-      "imageUrl": "/static/torre-eiffel-cor.jpg",
-      "imageHint": "a man in front of the eiffel tower"
-    },
-    {
-      "id": "hobby-travel-3",
-      "description": "Louvre Museum.",
+      "id": "personal-1",
+      "description": "Eu no Trocadéro com a Torre Eiffel ao fundo",
       "imageUrl": "/static/eiffel.jpg",
-      "imageHint": "a man in front of the louvre museum"
+      "imageHint": "Trocadéro with Eiffel Tower"
+    },
+    {
+      "id": "personal-7",
+      "description": "Foto com a camisa do Corinthians, com a Torre Eiffel ao fundo",
+      "imageUrl": "/static/eiffelCor.jpg",
+      "imageHint": "Torre Eiffel"
+    },
+    {
+      "id": "personal-2",
+      "description": "Eu no Arco do Triunfo",
+      "imageUrl": "/static/arcoTriunfo.jpg",
+      "imageHint": "Arco do Triunfo"
+    },
+    {
+      "id": "personal-6",
+      "description": "Selfie com o arco do triunfo ao fundo",
+      "imageUrl": "/static/selfieArc.jpg",
+      "imageHint": "Arco do Triunfo"
+    },
+    {
+      "id": "personal-4",
+      "description": "Selfie com o Louvre ao fundo",
+      "imageUrl": "/static/louvre.jpg",
+      "imageHint": "Louvre"
+    },
+    {
+      "id": "personal-8",
+      "description": "Foto em frente a igreja, com o Vaticano ao fundo",
+      "imageUrl": "/static/vaticano.jpg",
+      "imageHint": "Vaticano"
+    },
+    {
+      "id": "personal-9",
+      "description": "Foto em frente a igreja em Gozo/Malta",
+      "imageUrl": "/static/igreja.jpg",
+      "imageHint": "Gozo/Malta"
+    },
+    {
+      "id": "personal-10",
+      "description": "Foto em frente a Fontana di Trevi, com a fonte ao fundo",
+      "imageUrl": "/static/fontana.jpg",
+      "imageHint": "Fontana di Trevi"
+    },
+    {
+      "id": "personal-12",
+      "description": "Foto em frente ao Coliseu, com o monumento ao fundo",
+      "imageUrl": "/static/coliseum.jpg",
+      "imageHint": "Coliseu"
+    },
+    {
+      "id": "personal-13",
+      "description": "Foto em frente ao Coliseu, com o monumento ao fundo",
+      "imageUrl": "/static/coliseum1.jpg",
+      "imageHint": "Coliseu"
+    },
+    {
+      "id": "personal-3",
+      "description": "Eu no Chile, com as montanhas ao fundo",
+      "imageUrl": "/static/chile.jpg",
+      "imageHint": "Chile with mountains"
+    },
+    {
+      "id": "personal-5",
+      "description": "Foto com meu afilhado Enzo",
+      "imageUrl": "/static/enzoEu.jpg",
+      "imageHint": "Enzo"
+    },
+    {
+      "id": "personal-11",
+      "description": "Foto de halloween",
+      "imageUrl": "/static/halloween.jpg",
+      "imageHint": "Halloween"
     }
   ]
 }

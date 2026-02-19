@@ -1,21 +1,23 @@
+'use client';
+
+import Header from '@/components/header';
 import HeroSection from '@/components/hero-section';
-import AboutSection from '@/components/about-section';
-import SkillsSection from '@/components/skills-section';
-import AwardsSection from '@/components/awards-section';
-import LanguagesSection from '@/components/languages-section';
-import HobbiesSection from '@/components/hobbies-section';
-import PresentationSection from '@/components/presentation-section';
+import EngineerProfileSection from '@/components/engineer-profile-section';
+import SkillsSection from '@/components/tech-stack-section';
+import ProjectsSection from '@/components/projects-section';
+import PersonalSection from '@/components/personal-section';
+import Footer from '@/components/footer';
 
 export default function Home() {
   return (
-    <>
+    <main className="snap-container bg-background">
+      <Header />
       <HeroSection />
-      <AboutSection />
+      <EngineerProfileSection />
       <SkillsSection />
-      <LanguagesSection />
-      <AwardsSection />
-      <PresentationSection />
-      <HobbiesSection />
-    </>
+      <ProjectsSection />
+      <PersonalSection />
+      <Footer />
+    </main>
   );
 }
