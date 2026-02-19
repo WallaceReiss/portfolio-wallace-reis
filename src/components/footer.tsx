@@ -42,8 +42,8 @@ const Footer = () => {
 
   return (
     <footer className="snap-section w-full border-t border-white/[0.05] bg-[#0a0514] pt-16 pb-8 flex flex-col justify-center">
-      <div className="container mx-auto max-w-7xl px-6">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
+      <div className="container mx-auto max-w-7xl px-6 sm:px-2">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16 sm:gap-6">
           {/* Logo & Copyright */}
           <div className="space-y-4">
             <Link href="/" className="group flex items-center gap-2 font-mono text-xl font-bold tracking-tighter">
@@ -95,8 +95,8 @@ const Footer = () => {
         </div>
 
         {/* Bottom Line */}
-        <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-white/[0.05] gap-4">
-          <div className="flex gap-8 text-[10px] font-mono uppercase tracking-widest text-muted-foreground/40">
+        <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-white/[0.05] gap-4 sm:gap-2">
+          <div className="flex gap-8 text-[10px] font-mono uppercase tracking-widest text-muted-foreground/40 sm:gap-4 sm:flex-wrap sm:justify-center">
             <Link href="#about" className="hover:text-primary transition-colors">About</Link>
             <Link href="#projects" className="hover:text-primary transition-colors">Projects</Link>
             <Link href="#skills" className="hover:text-primary transition-colors">Skills</Link>

@@ -38,7 +38,7 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10" />
       </div>
 
-      <div className="container mx-auto px-6 z-10 grid lg:grid-cols-2 gap-16 items-center max-w-7xl">
+      <div className="container mx-auto px-6 z-10 grid lg:grid-cols-2 gap-16 items-center max-w-7xl md:gap-10 sm:grid-cols-1 sm:gap-8">
         {/* Lado Esquerdo: Conteúdo */}
         <motion.div
           variants={containerVariants}
@@ -51,8 +51,8 @@ const HeroSection = () => {
               <MapPin className="h-4 w-4" />
               {t.common.location}
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold  tracking-tighter leading-[1.1]">
-              <span className="text-gradient drop-shadow-sm" style={{ fontSize: '65px' }}>{t.hero.name}</span>
+            <h1 className="text-5xl md:text-7xl font-bold tracking-tighter leading-[1.1] sm:text-4xl">
+              <span className="text-gradient drop-shadow-sm" style={{ fontSize: 'clamp(2rem,8vw,65px)' }}>{t.hero.name}</span>
             </h1>
             <div className="flex flex-wrap gap-x-4 gap-y-2 text-xl md:text-2xl text-muted-foreground font-light font-mono">
               {t.hero.roles.map((role, index) => (
@@ -123,9 +123,9 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.9, x: 40 }}
           animate={{ opacity: 1, scale: 1, x: 0 }}
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
-          className="relative hidden lg:block"
+          className="relative hidden lg:block md:block sm:block w-full max-w-xs mx-auto mt-8"
         >
-          <div className="relative w-[480px] h-[640px] mx-auto group">
+          <div className="relative w-[320px] h-[420px] md:w-[400px] md:h-[520px] lg:w-[480px] lg:h-[640px] mx-auto group">
             {/* Sombra Glow Roxo */}
             <div className="absolute -inset-4 bg-primary/20 rounded-[2rem] blur-3xl group-hover:bg-primary/30 transition-all duration-1000" />
             

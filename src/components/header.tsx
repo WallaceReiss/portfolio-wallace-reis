@@ -24,7 +24,7 @@ const Header = () => {
       transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
       className="fixed top-0 left-0 right-0 z-[100] border-b border-white/5 bg-background/60 backdrop-blur-md"
     >
-      <div className="container mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
+      <div className="container mx-auto flex h-20 max-w-7xl items-center justify-between px-6 sm:px-2">
         <Link href="/" className="group flex items-center gap-2 font-mono text-xl font-bold tracking-tighter">
           <span className="text-primary transition-transform group-hover:scale-110">/</span>
           <span>WRO</span>
@@ -44,6 +44,20 @@ const Header = () => {
           </nav>
           <div className="h-4 w-[1px] bg-white/10 hidden md:block" />
           <LanguageSwitcher />
+        </div>
+        {/* Menu mobile */}
+        <div className="md:hidden flex items-center w-full">
+          <nav className="flex items-center gap-2 overflow-x-auto scrollbar-thin scrollbar-thumb-primary/30 scrollbar-track-transparent px-1 w-full">
+            {navItems.map((item) => (
+              <Link
+                key={item.name}
+                href={item.href}
+                className="min-w-[80px] px-2 py-1 font-mono text-[10px] uppercase tracking-widest text-muted-foreground hover:text-primary whitespace-nowrap rounded border border-transparent hover:border-primary/30 transition-all"
+              >
+                {item.name}
+              </Link>
+            ))}
+          </nav>
         </div>
       </div>
     </motion.header>
