@@ -40,9 +40,9 @@ export const portfolioData = {
     paragraph3: 'Foco total em eficiência e segurança: utilizo prompts de IA avançados para auditoria de código e automação, implemento protocolos rigorosos de criptografia e controle de acesso granular. Minhas entregas são pautadas em Core Web Vitals, testes automatizados (E2E/Unit) e um design centrado no usuário, garantindo produtos que não apenas funcionam, mas performam e geram ROI.',
   },
   professionalProfile: {
-    title: 'Liderança Executiva (Grupo Safira)',
-    paragraph1: 'No Grupo Safira (2021-2025), atuei como Tech Lead e Desenvolvedor Full Stack, sendo o principal responsável pela arquitetura e evolução do CRM corporativo focado em Geração Distribuída (Solar). Lideri a modernização do ecossistema utilizando TypeScript, Angular e Node.js, suportando a gestão crítica de milhares de unidades consumidoras.',
-    paragraph2: 'Atuei como ponte estratégica entre a Engenharia e as áreas de Operações, Call Center e Vendas. Minha análise técnica de processos permitiu identificar gargalos críticos, resultando na implementação de automações de faturamento e gestão que geraram um aumento direto de 7% no faturamento mensal logo no primeiro mês de implantação.',
+    title: 'Liderança de projeto e processos',
+    paragraph1: 'No Grupo Safira (2021-2025), atuei como Tech Lead e Desenvolvedor Full Stack, sendo o principal responsável pelos processos e evolução do CRM corporativo focado em Geração Distribuída (Solar). Liderei a modernização do ecossistema utilizando TypeScript, Angular e Node.js, suportando a gestão crítica de milhares de unidades consumidoras.',
+    paragraph2: 'Atuei como ponte estratégica entre a tecnologia e as áreas de Operações, Call Center e Vendas. Minha análise técnica de processos permitiu identificar gargalos críticos, resultando na implementação de automações de faturamento e gestão que geraram um aumento direto de 7% no faturamento mensal logo no primeiro mês de implantação.',
     paragraph3: 'Especialista em ecossistemas de dados de alta escala, otimizei consultas complexas em PostgreSQL e gerenciei infraestrutura em Google Cloud Platform (GCP). Minhas ações de otimização de recursos e automação de deploys reduziram custos operacionais de cloud em 15%, garantindo a estabilidade necessária para o crescimento acelerado do negócio.',
   },
   skills: {

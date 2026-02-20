@@ -30,7 +30,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="home" className="snap-section relative flex items-center justify-center overflow-hidden bg-[#0a0514]">
+    <section id="home" className="snap-section relative flex items-center justify-center overflow-hidden bg-[#0a0514] pt-[5.5rem] md:pt-[6rem] sm:pt-[5rem]">
       {/* Background Decorativo - Roxo Profundo */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <div className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] bg-primary/20 rounded-full blur-[120px] opacity-40" />
